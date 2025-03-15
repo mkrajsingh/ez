@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .left-section {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 40px;
+  }
+  
+  .logo {
+    width: 180px;
+    margin-bottom: 10px;
+  }
+  
+  .left-section h2 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #2b3b55;
+  }
+  
+  .email-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .email-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex: 1;
+    border-radius: 5px;
+  }
+  
+  .email-form button {
+    background-color: #f5841f;
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .email-form button:hover {
+    background-color: #d56c0d;
+  }
+  
+  .response-msg {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .right-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .card {
+    background-color: #0f2c4c;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .card img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .card h4 {
+    color: #2dd2fc;
+    margin-bottom: 10px;
+  }
+  
